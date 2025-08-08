@@ -82,33 +82,33 @@ namespace C__ADV_01
 
 
         #region Generic Linear Search Method 
-        public static int LinearSearch<T>(T[] Arr, T Value)
-        {
-            if (Arr?.Length > 0)
-            {
-                for (int i = 0; i < Arr.Length; i++)
-                {
-                    if (Arr[i].Equals(Value)) return i;
-                }
+        //public static int LinearSearch<T>(T[] Arr, T Value)
+        //{
+        //    if (Arr?.Length > 0)
+        //    {
+        //        for (int i = 0; i < Arr.Length; i++)
+        //        {
+        //            if (Arr[i].Equals(Value)) return i;
+        //        }
 
-            }
+        //    }
 
-            return -1;
-        }
+        //    return -1;
+        //}
 
-        public static int LinearSearch<T>(T[] Arr, T Value, IEqualityComparer<T> equalityComparer)
-        {
-            if (Arr?.Length > 0)
-            {
-                for (int i = 0; i < Arr.Length; i++)
-                {
-                    if (Arr[i].Equals(Value)) return i;
-                }
+        //public static int LinearSearch<T>(T[] Arr, T Value, IEqualityComparer<T> equalityComparer)
+        //{
+        //    if (Arr?.Length > 0)
+        //    {
+        //        for (int i = 0; i < Arr.Length; i++)
+        //        {
+        //            if (Arr[i].Equals(Value)) return i;
+        //        }
 
-            }
+        //    }
 
-            return -1;
-        }
+        //    return -1;
+        //}
         #endregion
 
         #region Non Generic LinearSearch
